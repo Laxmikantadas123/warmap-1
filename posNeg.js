@@ -13,6 +13,8 @@ const posNeg=(a,b,negative)=>{
         return((a<0&&b>=0)||(a>=0&&b<0))
     }
 }
+// ------------Test Case---------
+
 console.log(posNeg(1, -1, false));
 console.log(posNeg(-1, 1, false));
 console.log(posNeg(-4, 5, true));
